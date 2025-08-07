@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/Sakthi0025/node-docker-app.git'
+                git branch: 'main', url: 'https://github.com/Sakthi0025/node-docker-app.git'
             }
         }
 
