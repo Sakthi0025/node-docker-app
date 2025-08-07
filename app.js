@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello, Dockerized World!');
+    res.send('jenkins automated deployment!');
 });
 
 const port = 3000;
